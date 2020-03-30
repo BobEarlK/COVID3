@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="" />
+    <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID3/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zqxcj1M79iQ8tnyB7I4uK8lFzh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/distribute_patients" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -181,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585580506573</updated>
-      <workItem from="1585580534243" duration="8622000" />
+      <workItem from="1585580534243" duration="11418000" />
     </task>
     <servers />
   </component>
@@ -189,30 +199,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1104" height="363" key="GridCell.Tab.0.bottom" timestamp="1585589073697">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="1104" height="363" key="GridCell.Tab.0.bottom" timestamp="1585589994595">
+      <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701714" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073697" />
-    <state width="1104" height="449" key="GridCell.Tab.0.bottom/0.23.2560.1354@0.23.2560.1354" timestamp="1585586912752" />
-    <state width="1104" height="363" key="GridCell.Tab.0.center" timestamp="1585589073696">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1354@0.23.2560.1354" timestamp="1585589994595" />
+    <state width="1104" height="363" key="GridCell.Tab.0.center" timestamp="1585589994595">
+      <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="1104" height="449" key="GridCell.Tab.0.center/0.23.2560.1354@0.23.2560.1354" timestamp="1585586912751" />
-    <state width="1104" height="363" key="GridCell.Tab.0.left" timestamp="1585589073696">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1354@0.23.2560.1354" timestamp="1585589994595" />
+    <state width="1104" height="363" key="GridCell.Tab.0.left" timestamp="1585589994595">
+      <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="1104" height="449" key="GridCell.Tab.0.left/0.23.2560.1354@0.23.2560.1354" timestamp="1585586912751" />
-    <state width="1104" height="363" key="GridCell.Tab.0.right" timestamp="1585589073696">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1354@0.23.2560.1354" timestamp="1585589994595" />
+    <state width="1104" height="363" key="GridCell.Tab.0.right" timestamp="1585589994595">
+      <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="1104" height="449" key="GridCell.Tab.0.right/0.23.2560.1354@0.23.2560.1354" timestamp="1585586912751" />
+    <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1354@0.23.2560.1354" timestamp="1585589994595" />
     <state width="1104" height="449" key="GridCell.Tab.1.bottom" timestamp="1585586924631">
       <screen x="0" y="23" width="2560" height="1353" />
     </state>
@@ -233,6 +243,10 @@
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state x="83" y="330" key="SettingsEditor/0.23.2560.1352@0.23.2560.1352" timestamp="1585581573993" />
+    <state x="1356" y="442" key="Vcs.Push.Dialog.v2" timestamp="1585593792690">
+      <screen x="0" y="23" width="2560" height="1355" />
+    </state>
+    <state x="1356" y="442" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593792689" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
