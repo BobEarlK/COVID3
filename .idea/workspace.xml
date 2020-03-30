@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/COVID3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID3/settings.py" afterDir="false" />
     </list>
@@ -191,14 +190,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585580506573</updated>
-      <workItem from="1585580534243" duration="11418000" />
+      <workItem from="1585580534243" duration="13850000" />
     </task>
+    <task id="LOCAL-00001" summary="Added requirements.txt file">
+      <created>1585593862148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585593862148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added requirements.txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added requirements.txt file" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1365" y="221" key="CommitChangelistDialog2" timestamp="1585593861959">
+      <screen x="0" y="23" width="2560" height="1355" />
+    </state>
+    <state x="1365" y="221" key="CommitChangelistDialog2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593861959" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom" timestamp="1585589994595">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
@@ -243,10 +258,10 @@
       <screen x="0" y="23" width="2560" height="1352" />
     </state>
     <state x="83" y="330" key="SettingsEditor/0.23.2560.1352@0.23.2560.1352" timestamp="1585581573993" />
-    <state x="1356" y="442" key="Vcs.Push.Dialog.v2" timestamp="1585593792690">
+    <state x="1356" y="442" key="Vcs.Push.Dialog.v2" timestamp="1585593885712">
       <screen x="0" y="23" width="2560" height="1355" />
     </state>
-    <state x="1356" y="442" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593792689" />
+    <state x="1356" y="442" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593885712" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
