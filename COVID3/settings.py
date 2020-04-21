@@ -17,18 +17,30 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
 if 'DJANGO_DEBUG_FALSE' in os.environ:
     DEBUG = False
     SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
-    ALLOWED_HOSTS = [os.environ['www.kalusinator.com'], '178.128.72.92']
+    ALLOWED_HOSTS = [os.environ['SITENAME'], '^DROPLET_IP']
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'covid3',
+            'USER': 'bobearl',
+            'PASSWORD': 'ursine',
+            'HOST': 'localhost',
+            'PORT': '5432',
+        }
+    }
 else:
     DEBUG = True
     SECRET_KEY = 'insecure-key-for-dev'
     ALLOWED_HOSTS = ['*']
-# SECURITY WARNING: keep the secret key used in production secret!
-
-
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 # Application definition
 
 INSTALLED_APPS = [
@@ -80,13 +92,6 @@ WSGI_APPLICATION = 'COVID3.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

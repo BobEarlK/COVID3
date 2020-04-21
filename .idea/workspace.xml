@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="">
+    <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="Added '178.128.72.92' to ALLOWED_HOSTS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COVID3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/COVID3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +215,7 @@
       <workItem from="1586914334252" duration="61000" />
       <workItem from="1586977766005" duration="76000" />
       <workItem from="1587082272400" duration="7943000" />
-      <workItem from="1587427582114" duration="2023000" />
+      <workItem from="1587427582114" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="Added requirements.txt file">
       <created>1585593862148</created>
@@ -216,11 +231,29 @@
       <option name="project" value="LOCAL" />
       <updated>1585596533321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added '178.128.72.92' to ALLOWED_HOSTS">
+      <created>1587450824930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587450824930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added requirements.txt file" />
@@ -237,33 +270,33 @@
     </state>
     <state x="1365" y="221" key="CommitChangelistDialog2/0.23.2560.1353@0.23.2560.1353" timestamp="1585596533063" />
     <state x="1365" y="221" key="CommitChangelistDialog2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593861959" />
-    <state width="961" height="385" key="GridCell.Tab.0.bottom" timestamp="1586911374499">
+    <state width="1165" height="385" key="GridCell.Tab.0.bottom" timestamp="1587450860837">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701714" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073697" />
-    <state width="961" height="385" key="GridCell.Tab.0.bottom/0.23.2560.1354@0.23.2560.1354" timestamp="1586911374499" />
+    <state width="1165" height="385" key="GridCell.Tab.0.bottom/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860837" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352132" />
-    <state width="961" height="385" key="GridCell.Tab.0.center" timestamp="1586911374499">
+    <state width="1165" height="385" key="GridCell.Tab.0.center" timestamp="1587450860836">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="961" height="385" key="GridCell.Tab.0.center/0.23.2560.1354@0.23.2560.1354" timestamp="1586911374499" />
+    <state width="1165" height="385" key="GridCell.Tab.0.center/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
-    <state width="961" height="385" key="GridCell.Tab.0.left" timestamp="1586911374498">
+    <state width="1165" height="385" key="GridCell.Tab.0.left" timestamp="1587450860836">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="961" height="385" key="GridCell.Tab.0.left/0.23.2560.1354@0.23.2560.1354" timestamp="1586911374498" />
+    <state width="1165" height="385" key="GridCell.Tab.0.left/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
-    <state width="961" height="385" key="GridCell.Tab.0.right" timestamp="1586911374499">
+    <state width="1165" height="385" key="GridCell.Tab.0.right" timestamp="1587450860836">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
-    <state width="961" height="385" key="GridCell.Tab.0.right/0.23.2560.1354@0.23.2560.1354" timestamp="1586911374499" />
+    <state width="1165" height="385" key="GridCell.Tab.0.right/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
     <state width="1104" height="449" key="GridCell.Tab.1.bottom" timestamp="1586478352128">
       <screen x="0" y="23" width="2560" height="1356" />
@@ -290,10 +323,11 @@
     </state>
     <state x="1343" y="293" key="SettingsEditor/0.23.2560.1352@0.23.2560.1352" timestamp="1587082402931" />
     <state x="83" y="331" key="SettingsEditor/0.23.2560.1356@0.23.2560.1356" timestamp="1586478348945" />
-    <state x="1356" y="441" key="Vcs.Push.Dialog.v2" timestamp="1585596557374">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state x="1356" y="441" key="Vcs.Push.Dialog.v2" timestamp="1587450832992">
+      <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state x="1356" y="441" key="Vcs.Push.Dialog.v2/0.23.2560.1353@0.23.2560.1353" timestamp="1585596557374" />
+    <state x="1356" y="441" key="Vcs.Push.Dialog.v2/0.23.2560.1354@0.23.2560.1354" timestamp="1587450832992" />
     <state x="1356" y="442" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593885712" />
   </component>
   <component name="XDebuggerManager">
