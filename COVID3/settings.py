@@ -27,12 +27,7 @@ else:
     SECRET_KEY = 'insecure-key-for-dev'
     ALLOWED_HOSTS = ['*']
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'lih675wqwp_5u)$$^d$s)uhqr1%^8-p700%g2ly6fj62cg&w@='
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 # Application definition
 
