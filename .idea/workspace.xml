@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7cbdaf-b5eb-4379-8a2b-b859b096623f" name="Default Changelist" comment="Added '178.128.72.92' to ALLOWED_HOSTS">
+      <change beforePath="$PROJECT_DIR$/.idea/COVID3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COVID3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="a1bf101a-bbb6-4ba3-bfef-9a5ac3b9a420" />
   <component name="ProjectId" id="1Zqxcj1M79iQ8tnyB7I4uK8lFzh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,7 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,7 +64,7 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: distribute_patients.tests">
+  <component name="RunManager" selected="Django tests.Test: ">
     <configuration name="Test: distribute_patients.tests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="COVID3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +145,7 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_resolves_url" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
       <module name="COVID3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +158,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_resolves_url" />
+      <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -187,14 +191,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: " />
         <item itemvalue="Django tests.Test: distribute_patients.tests" />
         <item itemvalue="Django tests.Test: distribute_patients.tests.test_form_tests" />
         <item itemvalue="Django tests.Test: distribute_patients.tests.test_view_tests.COVIDLinksView" />
         <item itemvalue="Django tests.Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_gets_success_status_code" />
-        <item itemvalue="Django tests.Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_resolves_url" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,7 +220,22 @@
       <workItem from="1586914334252" duration="61000" />
       <workItem from="1586977766005" duration="76000" />
       <workItem from="1587082272400" duration="7943000" />
-      <workItem from="1587427582114" duration="2684000" />
+      <workItem from="1587427582114" duration="7090000" />
+      <workItem from="1587486313047" duration="390000" />
+      <workItem from="1587486741214" duration="289000" />
+      <workItem from="1587487048076" duration="1621000" />
+      <workItem from="1587504078700" duration="500000" />
+      <workItem from="1587749009392" duration="2357000" />
+      <workItem from="1589997846720" duration="803000" />
+      <workItem from="1590789283264" duration="3077000" />
+      <workItem from="1590966815093" duration="1812000" />
+      <workItem from="1591036156548" duration="11524000" />
+      <workItem from="1592433353426" duration="7306000" />
+      <workItem from="1592610355788" duration="14934000" />
+      <workItem from="1595260127340" duration="20000" />
+      <workItem from="1596340673119" duration="7428000" />
+      <workItem from="1596353702106" duration="4000" />
+      <workItem from="1596382288702" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="Added requirements.txt file">
       <created>1585593862148</created>
@@ -238,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587450824930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added '178.128.72.92' to ALLOWED_HOSTS">
+      <created>1587451390203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587451390203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -254,6 +281,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added requirements.txt file" />
@@ -270,34 +298,38 @@
     </state>
     <state x="1365" y="221" key="CommitChangelistDialog2/0.23.2560.1353@0.23.2560.1353" timestamp="1585596533063" />
     <state x="1365" y="221" key="CommitChangelistDialog2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593861959" />
-    <state width="1165" height="385" key="GridCell.Tab.0.bottom" timestamp="1587450860837">
-      <screen x="0" y="23" width="2560" height="1354" />
+    <state width="961" height="385" key="GridCell.Tab.0.bottom" timestamp="1590682081243">
+      <screen x="0" y="23" width="2560" height="1363" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701714" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073697" />
     <state width="1165" height="385" key="GridCell.Tab.0.bottom/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860837" />
     <state width="1104" height="363" key="GridCell.Tab.0.bottom/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352132" />
-    <state width="1165" height="385" key="GridCell.Tab.0.center" timestamp="1587450860836">
-      <screen x="0" y="23" width="2560" height="1354" />
+    <state width="961" height="385" key="GridCell.Tab.0.bottom/0.23.2560.1363@0.23.2560.1363" timestamp="1590682081243" />
+    <state width="961" height="385" key="GridCell.Tab.0.center" timestamp="1590682081242">
+      <screen x="0" y="23" width="2560" height="1363" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
     <state width="1165" height="385" key="GridCell.Tab.0.center/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.center/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
-    <state width="1165" height="385" key="GridCell.Tab.0.left" timestamp="1587450860836">
-      <screen x="0" y="23" width="2560" height="1354" />
+    <state width="961" height="385" key="GridCell.Tab.0.center/0.23.2560.1363@0.23.2560.1363" timestamp="1590682081242" />
+    <state width="961" height="385" key="GridCell.Tab.0.left" timestamp="1590682081242">
+      <screen x="0" y="23" width="2560" height="1363" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
     <state width="1165" height="385" key="GridCell.Tab.0.left/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.left/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
-    <state width="1165" height="385" key="GridCell.Tab.0.right" timestamp="1587450860836">
-      <screen x="0" y="23" width="2560" height="1354" />
+    <state width="961" height="385" key="GridCell.Tab.0.left/0.23.2560.1363@0.23.2560.1363" timestamp="1590682081242" />
+    <state width="961" height="385" key="GridCell.Tab.0.right" timestamp="1590682081243">
+      <screen x="0" y="23" width="2560" height="1363" />
     </state>
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1352@0.23.2560.1352" timestamp="1585582701713" />
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1353@0.23.2560.1353" timestamp="1585589073696" />
     <state width="1165" height="385" key="GridCell.Tab.0.right/0.23.2560.1354@0.23.2560.1354" timestamp="1587450860836" />
     <state width="1104" height="363" key="GridCell.Tab.0.right/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352131" />
+    <state width="961" height="385" key="GridCell.Tab.0.right/0.23.2560.1363@0.23.2560.1363" timestamp="1590682081243" />
     <state width="1104" height="449" key="GridCell.Tab.1.bottom" timestamp="1586478352128">
       <screen x="0" y="23" width="2560" height="1356" />
     </state>
@@ -318,17 +350,22 @@
     </state>
     <state width="1104" height="449" key="GridCell.Tab.1.right/0.23.2560.1353@0.23.2560.1353" timestamp="1585586924630" />
     <state width="1104" height="449" key="GridCell.Tab.1.right/0.23.2560.1356@0.23.2560.1356" timestamp="1586478352128" />
-    <state x="1343" y="293" key="SettingsEditor" timestamp="1587082402931">
-      <screen x="0" y="23" width="2560" height="1352" />
+    <state x="1343" y="290" key="SettingsEditor" timestamp="1587487011897">
+      <screen x="0" y="23" width="2560" height="1339" />
     </state>
+    <state x="1343" y="290" key="SettingsEditor/0.23.2560.1339@0.23.2560.1339" timestamp="1587487011897" />
     <state x="1343" y="293" key="SettingsEditor/0.23.2560.1352@0.23.2560.1352" timestamp="1587082402931" />
     <state x="83" y="331" key="SettingsEditor/0.23.2560.1356@0.23.2560.1356" timestamp="1586478348945" />
-    <state x="1356" y="441" key="Vcs.Push.Dialog.v2" timestamp="1587450832992">
+    <state x="1356" y="441" key="Vcs.Push.Dialog.v2" timestamp="1587451395324">
       <screen x="0" y="23" width="2560" height="1354" />
     </state>
     <state x="1356" y="441" key="Vcs.Push.Dialog.v2/0.23.2560.1353@0.23.2560.1353" timestamp="1585596557374" />
-    <state x="1356" y="441" key="Vcs.Push.Dialog.v2/0.23.2560.1354@0.23.2560.1354" timestamp="1587450832992" />
+    <state x="1356" y="441" key="Vcs.Push.Dialog.v2/0.23.2560.1354@0.23.2560.1354" timestamp="1587451395324" />
     <state x="1356" y="442" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1585593885712" />
+    <state x="287" y="430" width="638" height="522" key="find.popup" timestamp="1593656138748">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state x="287" y="430" width="638" height="522" key="find.popup/0.23.2560.1350@0.23.2560.1350" timestamp="1593656138748" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,17 +375,38 @@
           <line>192</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/distribute_patients/views.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/distribute_patients/tests/test_form_tests.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/distribute_patients/tests/test_form_tests.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/distribute_patients/tests/test_functional_tests.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView Coverage Results" MODIFIED="1585588056348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_model_tests.coverage" NAME="Test: distribute_patients.tests.test_model_tests Coverage Results" MODIFIED="1585581328851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests.coverage" NAME="Test: distribute_patients.tests Coverage Results" MODIFIED="1587450765166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView_test_view_resolves_url.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_resolves_url Coverage Results" MODIFIED="1585587722209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView_test_view_gets_success_status_code.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_gets_success_status_code Coverage Results" MODIFIED="1585588046486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1590682070254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_form_tests.coverage" NAME="Test: distribute_patients.tests.test_form_tests Coverage Results" MODIFIED="1586545169030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_functional_tests_DesignatePatientsPage_test_marking_COVID_and_CCU_and_submitting_redirects_to_patient_assignments.coverage" NAME="Test: distribute_patients.tests.test_functional_tests.DesignatePatientsPage.test_marking_COVID_and_CCU_and_submitting_redirects_to_patient_assignments Coverage Results" MODIFIED="1585585693484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests.coverage" NAME="Test: distribute_patients.tests Coverage Results" MODIFIED="1587450765166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_model_tests.coverage" NAME="Test: distribute_patients.tests.test_model_tests Coverage Results" MODIFIED="1585581328851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView Coverage Results" MODIFIED="1585588056348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView_test_view_gets_success_status_code.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_gets_success_status_code Coverage Results" MODIFIED="1585588046486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_view_tests_COVIDLinksView_test_view_resolves_url.coverage" NAME="Test: distribute_patients.tests.test_view_tests.COVIDLinksView.test_view_resolves_url Coverage Results" MODIFIED="1585587722209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/COVID3$Test__distribute_patients_tests_test_functional_tests.coverage" NAME="Test: distribute_patients.tests.test_functional_tests Coverage Results" MODIFIED="1585586924615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
